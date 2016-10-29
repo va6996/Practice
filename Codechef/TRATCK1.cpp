@@ -42,8 +42,6 @@ int main(){
 		map<int, int> diff;
 		for(int i=0;i<n;i++)
 			edges[i] = findparent(i);
-		for(int i=0;i<n;i++)
-			cout<<i<<" "<<edges[i]<<endl;
 		for(int i=0;i<n;i++){
 			if(diff.count(edges[i]) > 0) ;
 			else
